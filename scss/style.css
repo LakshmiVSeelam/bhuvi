@@ -1919,18 +1919,16 @@ a:hover, a:focus, a.active {
   font-style: italic;
 }
 .team-sec .pricing-container .pricing-section {
-  padding: 100px 0;
+  padding: 80px 20px;
 }
 .team-sec .pricing-container .pricing-section.plan-section {
-  background-color: #132e8e;
+  box-shadow: 0px 0px 20px #ccc;
 }
 .team-sec .info-box .col .price-box {
   padding: 30px 10px;
   position: relative;
   transition: all ease-in 0.2s;
-}
-.team-sec .info-box .col .price-box:hover {
-  transform: scale(1.1);
+  box-shadow: 0px 0px 20px #ccc;
 }
 .team-sec .info-box .col strong {
   margin-bottom: 10px;
@@ -2034,20 +2032,16 @@ a:hover, a:focus, a.active {
   font-style: italic;
 }
 .pricing-sec .pricing-container .pricing-section {
-  padding: 100px 0;
+  padding: 80px 20px;
 }
 .pricing-sec .pricing-container .pricing-section.plan-section {
-  background-color: #132e8e;
+  box-shadow: 0px 0px 20px #ccc;
 }
 .pricing-sec .info-box .col .price-box {
   padding: 30px 10px;
-  border: solid 1px #f22111;
   position: relative;
   transition: all ease-in 0.2s;
-}
-.pricing-sec .info-box .col .price-box:hover {
-  transform: scale(1.1);
-  border-width: 2px;
+  box-shadow: 0px 0px 20px #ccc;
 }
 .pricing-sec .info-box .col strong {
   margin-bottom: 10px;
