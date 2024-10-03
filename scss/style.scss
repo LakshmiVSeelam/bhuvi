@@ -1385,7 +1385,7 @@ a{
 		.col{
 			.price-box{
 				padding: 30px 10px;
-				background: lighten($brand-secondary, 30);
+				// background: lighten($brand-secondary, 30);
 				position: relative;
 				transition: all ease-in 0.2s;
 				&:hover{
@@ -1426,7 +1426,7 @@ a{
 		z-index: 1;
 		transition: all 0.25s linear;
 		img{
-			max-height: 265px;
+			// max-height: 265px;
 			width: auto;
 		}
 		&:first-child{ margin: 0;}
@@ -1452,7 +1452,7 @@ a{
 		.over{
 			position: absolute;
 			left: 50%;
-			top: 50%;
+			bottom: 0;
 			transform: translate(-50%, -50%);
 			width: 100%;
 			transition: all 1s linear;
@@ -1515,11 +1515,12 @@ a{
 		.col{
 			.price-box{
 				padding: 30px 10px;
-				background: lighten($brand-secondary, 30);
+				border: solid 1px lighten($brand-secondary, 0);
 				position: relative;
 				transition: all ease-in 0.2s;
 				&:hover{
 					transform: scale(1.1);
+					border-width: 2px;
 				}
 			}
 			strong{

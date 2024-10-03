@@ -1926,7 +1926,6 @@ a:hover, a:focus, a.active {
 }
 .team-sec .info-box .col .price-box {
   padding: 30px 10px;
-  background: #faa8a2;
   position: relative;
   transition: all ease-in 0.2s;
 }
@@ -1950,7 +1949,6 @@ a:hover, a:focus, a.active {
   transition: all 0.25s linear;
 }
 .team-sec .team-col img {
-  max-height: 265px;
   width: auto;
 }
 .team-sec .team-col:first-child {
@@ -1984,7 +1982,7 @@ a:hover, a:focus, a.active {
 .team-sec .team-col .over {
   position: absolute;
   left: 50%;
-  top: 50%;
+  bottom: 0;
   transform: translate(-50%, -50%);
   width: 100%;
   transition: all 1s linear;
@@ -2043,12 +2041,13 @@ a:hover, a:focus, a.active {
 }
 .pricing-sec .info-box .col .price-box {
   padding: 30px 10px;
-  background: #faa8a2;
+  border: solid 1px #f22111;
   position: relative;
   transition: all ease-in 0.2s;
 }
 .pricing-sec .info-box .col .price-box:hover {
   transform: scale(1.1);
+  border-width: 2px;
 }
 .pricing-sec .info-box .col strong {
   margin-bottom: 10px;
