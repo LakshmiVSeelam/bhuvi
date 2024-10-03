@@ -1287,11 +1287,6 @@ a:hover, a:focus, a.active {
   padding: 19px;
   border: 1px solid transparent;
 }
-.btn2:hover {
-  color: #fff;
-  border-color: #fff;
-  background: transparent;
-}
 
 .signupform .form-control {
   width: 500px;

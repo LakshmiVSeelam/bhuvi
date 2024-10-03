@@ -19,7 +19,7 @@ if (!$comment) $errors[count($errors)] = 'Please enter your comment.';
 if (!$errors) {
 
 	//recipient - YOUR EMAIL.. or whatever
-	$to = 'Your Name <aakram23@gmail.com>';	
+	$to = 'Bhuvi Real Tech <contactus@bhuvirealtech.co.in>';	
 	//sender - from the form
 	$from = $name . ' <' . $email . '>';
 	
