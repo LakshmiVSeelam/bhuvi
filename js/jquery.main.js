@@ -11,7 +11,7 @@ jQuery(function(){
 	initSlickSlider();
 	initVegasSlider();
     initTextRotator();
-	initStickyHeader();
+	// initStickyHeader();
     initTextRotator2();
     initTextRotator3();
 	initNavRemoveClass();
