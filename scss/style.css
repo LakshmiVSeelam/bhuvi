@@ -526,6 +526,11 @@ img {
   display: block;
 }
 
+a {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
 a:hover, a:focus, a.active {
   text-decoration: none;
   outline: none;
@@ -2353,6 +2358,10 @@ a:hover, a:focus, a.active {
   background: #121212;
   padding: 25px 0;
   overflow: hidden;
+}
+#footer .logo-container {
+  float: right;
+  margin-bottom: 15px;
 }
 #footer .copyright {
   font: 400 14px/20px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;

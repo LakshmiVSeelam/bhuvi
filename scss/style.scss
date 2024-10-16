@@ -110,6 +110,9 @@ img{
     display: block;
 }
 a{
+	text-decoration: none;
+    outline: none;
+	color: inherit;
     &:hover,
     &:focus,
     &.active{
@@ -1780,6 +1783,10 @@ a{
 	background: $clr18;
 	padding: 25px 0;
 	overflow: hidden;
+	.logo-container{
+		float: right;
+		margin-bottom: 15px;
+	}
 	.copyright{
 		font: 400 14px/20px $font-family-sans-serif;
 		color: $clr19;
